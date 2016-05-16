@@ -37,18 +37,18 @@ opensubtitles.api.login()
 
 var opensubtitles = require("subtitler");
 
-opensubtitles.api.searchForFile(login, lang, movieFilePath);
-.then(functions(results){
+opensubtitles.api.searchForFile(login, lang, movieFilePath)
+.then(function(results){
 	//got the search results
 });
 
 opensubtitles.api.searchForTitle(token, lang, text)
-.then(functions(results){
+.then(function(results){
 	//got the search results
 });
 
 opensubtitles.api.searchForTag(token, lang, tag)
-.then(functions(results){
+.then(function(results){
 	//got the search results
 });
 
@@ -56,7 +56,7 @@ opensubtitles.api.search(token, lang, {
 	query: "",
 	tag: ""
 })
-.then(functions(results){
+.then(function(results){
 	//got the search results
 });
 
